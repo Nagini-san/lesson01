@@ -23,5 +23,8 @@ switch (arga){
     case '9':
     case '10':
         console.log('秋');
+    
+   default:
+        console.log('1から12の数字を入れてください');
 
 }
