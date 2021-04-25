@@ -2,7 +2,8 @@ const arga = process.argv[2];
 
 const hundred = Math.floor(arga/100);
 const ten = Math.floor((arga%100)/10);
-const one = Math.floor((arga%100)%10);
+const one = Math.floor(arga%10);
+//const one = Math.floor((arga%100)%10);
 //Math.floor()関数は数値以下の最大の整数を返す
 //小数点は表示されない
 
